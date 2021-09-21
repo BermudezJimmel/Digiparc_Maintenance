@@ -14,7 +14,9 @@ body {
   background-image: linear-gradient(to right, #05417C , #0056B8);
   background-size: cover;
   /* position: relative; */
-  background-image: url("/assets/img/DigiPARC_BG.jpg");
+  background: url("/assets/img/DigiPARC_BG.jpg") no-repeat;
+  max-width: 100%;
+  height: auto;
 
 }
 
