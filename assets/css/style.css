@@ -14,6 +14,8 @@ body {
   background-image: linear-gradient(to right, #05417C , #0056B8);
   background-size: cover;
   /* position: relative; */
+  background-image: url("/assets/img/DigiPARC_BG.jpg");
+
 }
 
 body::before {
@@ -270,6 +272,21 @@ h1, h2, h3, h4, h5, h6 {
   background: #0056B8;
   border-color: #0056B8;
 }
+/*--------------------------------------------------------------
+# LOGO
+--------------------------------------------------------------*/
+img {
+  max-width: 500px; 
+  margin-top: 30px; 
+  margin-bottom: 20px;
+}
+
+@media (max-width: 575px) {
+  img{
+    max-width: 300px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Sections General
